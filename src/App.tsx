@@ -12,7 +12,9 @@ function App() {
           className="flex flex-grow items-center h-12 text-gray-800 space-x-4 md:space-x-8"
         >
           <li className="flex-shrink-0">
-            <span className="block py-2">Custom React UI Component.</span>
+            <a href={import.meta.env.BASE_URL} className="block py-2 hover:text-blue-500">
+              Custom React UI Component.
+            </a>
           </li>
         </ul>
       </nav>
